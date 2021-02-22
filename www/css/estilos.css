@@ -1,0 +1,166 @@
+body{
+	display: flex;
+}
+
+.visible{
+	width: 420px;
+	height: 600px;
+	background-color: green;
+	display: block;
+	visibility: visible;
+	margin-right: 40px;
+}
+
+.oculto{
+	width: 420px;
+	height: 600px;
+	background-color: green;
+	display: none; /*none*/
+	visibility: hidden; /*hidden*/
+}
+
+.btneq{
+	width: 320px;
+	height: 60px;
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+.btnstyle{
+	background-color: green;
+	border-color: white;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-style: solid;
+}
+
+.btnan{
+	width: 160px;
+	height: 60px;
+	margin-top: 80px;
+}
+
+#a24{
+	margin-left: 50px;
+}
+
+#inicio{
+	width: 160px;
+	height: 60px;
+	margin-left: 214px;
+	margin-top: 60px;
+}
+
+.txteq{
+	border: none;
+	background-color: green;
+	width: 110px;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	height: 50px;
+	padding-left: 10px;
+}
+
+.masmenos{
+	width: 50px;
+	height: 50px;
+}
+
+.displaycont{
+	border: none;
+	background-color: green;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	width: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+
+.flex{
+	display: flex;
+	justify-content: center;
+	margin-top: 8px;
+	height: 50px;
+}
+
+.on{
+	opacity: 1;
+}
+
+.off{
+	opacity: 0.5;
+}
+
+#ax{
+	color: white;
+	font-size: 15px;
+	background-color: green;
+	border: none;
+	font-weight: bold;
+	text-align: center;
+	width: 410px;
+	font-family: Arial;
+	margin: 0;
+}
+
+#fin{
+	width: 60px;
+	height: 50px;
+}
+
+#lineavert{
+	border-left: 4px solid white;
+	height: 500px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+hr{
+	width: 400px;
+	height: 3px;
+	border-width: 0;
+	background-color: white;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+img{
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+}
+
+.fleximg{
+	width: 60px;
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+
+.fleximg1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#eq1p2, #eq2p2{
+	width: 122px;
+	height: 30px;
+	font-family: Arial;
+	margin: 0;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#cont1, #cont2{
+	margin: 0;
+	font-family: Arial;
+}
+
